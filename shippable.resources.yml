@@ -4,7 +4,6 @@ resources:
     integration: dr-dockerhub    #replace with your Docker Hub integration name
     pointer:
       sourceName: "docker.io/devopsrecipes/deploy-kubernetes-basic"  #replace with your image name on Docker Hub
-      isPull: false
     seed:
       versionName: "master.1"  #replace with your image tag on Docker Hub
     flags:
